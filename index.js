@@ -14,6 +14,14 @@ app.get('/learn',(req,res)=>{
     res.send(`<h1>I am learning about CI-CD pipeline...!</h1>`)
 })
 
+app.get('/create',(req,res)=>{
+    res.send(`<h1>I complete today ci-cd hosting..!</h1>`)
+})
+
+app.get('/kill',(req,res)=>{
+    res.send(`<h1>I kill nitish..😱</h1>`)
+})
+
 const PORT = 5000;
 
 app.listen(PORT , ()=>{
